@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char str1[] = "and that piece of art is useful";
-printf("%s\" - Dora Korpar, %d-%d-%d\n", str1, 2015, 10, 19);
+	char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+printf("%s", str1);
 return (0);
 }
